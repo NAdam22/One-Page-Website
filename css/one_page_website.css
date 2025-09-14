@@ -1,0 +1,40 @@
+/* font-famiy, font-size 
+
+Complete these actions:
+
+Use CSS to set these properties for the form on your page:
+
+Width of the inputs
+
+Margin between the inputs
+
+Border of the inputs
+
+Border radius of the inputs
+
+Save the file. 
+
+
+Open the one_page_website.html file. In the element, link to your external CSS stylesheet (one_page_website.css).
+
+Save your code and run the one_page_website.html file in the browser to ensure everything displays properly.*/
+
+
+body {
+    background-color: lemonchiffon;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: darkslategray;
+}
+
+h1 {
+    color: mediumturquoise;
+    font-family: georgia, sans-serif;
+}
+
+form input [type="text"] {
+    width: 20%;
+    margin: 5px;
+    border: 2px solid peachpuff;
+    border-radius: 7px;
+}
